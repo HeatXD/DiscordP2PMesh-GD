@@ -1,0 +1,6 @@
+[submodule "godot-cpp"]
+	path = godot-cpp
+	url = https://github.com/godotengine/godot-cpp
+[submodule "DiscordP2PMesh"]
+	path = DiscordP2PMesh
+	url = https://github.com/HeatXD/DiscordP2PMesh.git

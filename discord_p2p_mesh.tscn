@@ -1,0 +1,4 @@
+[gd_scene format=3]
+
+[node name="P2PMesh" type="DiscordP2PMesh"]
+application_id = 0
