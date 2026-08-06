@@ -6,5 +6,20 @@ reloadable = true
 
 [libraries]
 
-windows.debug.x86_64 = "res://bin/windows/libdiscordp2pmesh.windows.template_debug.x86_64.dll"
-windows.release.x86_64 = "res://bin/windows/libdiscordp2pmesh.windows.template_release.x86_64.dll"
+windows.debug.x86_64 = "res://bin/libdiscordp2pmesh.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://bin/libdiscordp2pmesh.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://bin/libdiscordp2pmesh.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://bin/libdiscordp2pmesh.linux.template_release.x86_64.so"
+macos.debug.arm64 = "res://bin/libdiscordp2pmesh.macos.template_debug.arm64.dylib"
+macos.release.arm64 = "res://bin/libdiscordp2pmesh.macos.template_release.arm64.dylib"
+macos.debug.x86_64 = "res://bin/libdiscordp2pmesh.macos.template_debug.x86_64.dylib"
+macos.release.x86_64 = "res://bin/libdiscordp2pmesh.macos.template_release.x86_64.dylib"
+
+[dependencies]
+
+windows.debug.x86_64 = {"res://bin/discord_partner_sdk.dll" : ""}
+windows.release.x86_64 = {"res://bin/discord_partner_sdk.dll" : ""}
+linux.debug.x86_64 = {"res://bin/libdiscord_partner_sdk.so" : ""}
+linux.release.x86_64 = {"res://bin/libdiscord_partner_sdk.so" : ""}
+macos.debug = {"res://bin/libdiscord_partner_sdk.dylib" : ""}
+macos.release = {"res://bin/libdiscord_partner_sdk.dylib" : ""}

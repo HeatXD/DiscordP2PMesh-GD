@@ -17,3 +17,6 @@ godot-cpp/bin/
 godot-cpp/gen/
 .godot/
 DiscordP2PMesh-GD.vcxproj.user
+
+# CMake build directories
+build*/
