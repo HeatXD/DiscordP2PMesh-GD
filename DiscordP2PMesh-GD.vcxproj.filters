@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Solution Items">
+      <UniqueIdentifier>{a3d8f1e2-4b6c-4f9a-8e2d-1c5b7a9f0d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CI">
+      <UniqueIdentifier>{b4e9f2f3-5c7d-4a0b-9f3e-2d6c8b0a1e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Godot Project">
+      <UniqueIdentifier>{c5faf3f4-6d8e-4b1c-a04f-3e7d9c1b2f5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\register_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\discord_p2p_mesh_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="include\private\register_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\private\discord_p2p_mesh_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>Solution Items</Filter>
+    </None>
+    <None Include="LICENSE">
+      <Filter>Solution Items</Filter>
+    </None>
+    <None Include="CMakeLists.txt">
+      <Filter>Solution Items</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Solution Items</Filter>
+    </None>
+    <None Include=".gitmodules">
+      <Filter>Solution Items</Filter>
+    </None>
+    <None Include=".github\workflows\run.yaml">
+      <Filter>CI</Filter>
+    </None>
+    <None Include=".github\workflows\windows.yml">
+      <Filter>CI</Filter>
+    </None>
+    <None Include=".github\workflows\unix.yml">
+      <Filter>CI</Filter>
+    </None>
+    <None Include=".github\workflows\release.yml">
+      <Filter>CI</Filter>
+    </None>
+    <None Include="project.godot">
+      <Filter>Godot Project</Filter>
+    </None>
+    <None Include="discord_p2p_mesh.gdextension">
+      <Filter>Godot Project</Filter>
+    </None>
+    <None Include="discord_p2p_mesh.tscn">
+      <Filter>Godot Project</Filter>
+    </None>
+    <None Include="export_presets.cfg">
+      <Filter>Godot Project</Filter>
+    </None>
+    <None Include="test\main.gd">
+      <Filter>Godot Project</Filter>
+    </None>
+    <None Include="test\main.tscn">
+      <Filter>Godot Project</Filter>
+    </None>
+  </ItemGroup>
+</Project>

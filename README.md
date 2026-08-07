@@ -66,7 +66,9 @@ cmake -S . -B build -DGODOTCPP_TARGET=template_debug
 cmake --build build
 ```
 
-The extension is written straight into `bin/`, together with the Discord SDK runtime it needs, which is exactly where `discord_p2p_mesh.gdextension` expects to find them. Visual Studio can build this directly through File, Open, Folder.
+The extension is written straight into `bin/`, together with the Discord SDK runtime it needs, which is exactly where `discord_p2p_mesh.gdextension` expects to find them.
+
+On Windows you can also just open `DiscordP2PMesh-GD.slnx` in Visual Studio, which builds the extension and the core library together without CMake.
 
 #### 5. Open the Project
 Open `project.godot` in Godot and run it, the test scene is the main scene.
