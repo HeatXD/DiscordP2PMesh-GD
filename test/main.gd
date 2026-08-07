@@ -114,12 +114,14 @@ func _on_peer_connected(peer_id: int) -> void:
 	_add_known_peer(peer_id)
 	_connected_peer_ids[peer_id] = true
 	_append_peer_history(peer_id, "[connected]")
+	_lobby_log.text += "-- %s connected over P2P --\n" % P2PMesh.get_user_display_name(peer_id)
 	_rebuild_peer_dropdown()
 
 
 func _on_peer_disconnected(peer_id: int) -> void:
 	_connected_peer_ids.erase(peer_id)
 	_append_peer_history(peer_id, "[disconnected]")
+	_lobby_log.text += "-- %s disconnected --\n" % P2PMesh.get_user_display_name(peer_id)
 	_rebuild_peer_dropdown()
 
 
