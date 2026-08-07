@@ -21,6 +21,7 @@ A GDExtension wrapper around [DiscordP2PMesh](https://github.com/HeatXD/DiscordP
 
 ## Getting Started
 ### Docs
+- Need a Discord application first? See the core library's [`docs/discord_application.md`](https://github.com/HeatXD/DiscordP2PMesh/blob/master/docs/discord_application.md)
 - Look at [`test/main.gd`](test/main.gd), it drives every signal and method the node exposes
 - The underlying C API is documented in the core library's [`discord_p2p_mesh.h`](https://github.com/HeatXD/DiscordP2PMesh/blob/master/include/discord_p2p_mesh.h)
 
